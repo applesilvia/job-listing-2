@@ -8,4 +8,5 @@ class User < ApplicationRecord
            email == 'gitz1594@icloud.com'
          end
 
+         has_many :resumes
 end
