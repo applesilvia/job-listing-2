@@ -17,4 +17,5 @@ Rails.application.routes.draw do
       end
 
       root 'welcome#index'
+      root "topics#index"
 end
